@@ -291,3 +291,43 @@
     width: 100%;
 }
 //end features
+
+//start screenshots
+.screenshots {
+    padding: 80px 0;
+    background-color: #f6f6f6;
+}
+.screenshots__slider-item {
+    max-width: 255px;
+    min-height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    outline: none;
+}
+.slick-dots {
+    text-align: center;
+    margin-top: 70px;
+    li {
+        display: inline-block;
+        &.slick-active {
+            button {
+                    background-color: $bg;
+            }
+        }
+        & + li {
+            margin-left: 10px;
+        }  
+        button {
+            background-color: #fff;
+            border: 1px solid $bg;
+            font-size: 0;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            outline: none;
+            cursor: pointer;
+        }
+    }
+}
+//end screenshots
