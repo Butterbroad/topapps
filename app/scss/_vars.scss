@@ -5,10 +5,14 @@ $bg: #4776e6;
 $grey: #f4f6f5;
 
 
-
 @mixin f700 {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
+}
+
+@mixin r600 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
 }
 
 @mixin f600 {

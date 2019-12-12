@@ -7,6 +7,13 @@ $(function(){
     dots: true,
   });
 
+  $('.feedbacks__slider').slick({
+    slidesToShow: 2,
+    slidesToScroll: 2,
+    arrows: false,
+    dots: true,
+  });
+
   $('input[type="file"], select').styler();
       
 });
