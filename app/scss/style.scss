@@ -695,3 +695,106 @@
     }
 }
 //end contact
+
+//start footer
+.footer {
+    padding: 80px 0;
+    background-color: #222222;
+}
+.footer__inner {
+    display: flex;
+}
+.footer__item-about {
+    max-width: 460px;
+    width: 100%;
+}
+.footer__item-logo {
+    margin-bottom: 27px;
+}
+.footer__item-text {
+    color: #fff;
+    line-height: 26px;
+    span {
+        display: block;
+        margin: 35px 0;
+    }
+}
+.footer__item-links {
+    li {
+        display: inline-block;
+        & + li {
+            margin-left: 5px;
+        }
+    }
+}
+.footer__item-map {
+    margin: 0 30px;
+}
+.footer__item-contacts {
+    max-width: 160px;
+    width: 100%;
+}
+.item-contacts__overhead {
+    color: #fff;
+    font-size: 20px;
+    @include f700;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+.item-contacts-box {
+    margin-bottom: 18px;
+    color: #fff;
+    @include f300;
+    a {
+        color: #fff;
+        @include f300;
+    }
+}
+.item-contacts-title {
+    font-size: 16px;
+    color: $bg;
+    padding-left: 25px;
+    position: relative;
+    &::before {
+        content: "\f015";
+        font-family: 'icomoon';
+        font-size: 16px;
+        color: $bg;
+        position: absolute;
+        left: 0;
+    }
+}
+.contacts-title__phone {
+    position: relative;
+    &::before {
+        content: "\f095";
+        font-family: 'icomoon';
+        font-size: 16px;
+        color: $bg;
+        position: absolute;
+        left: 0;
+    }
+}
+.contacts-title__email {
+    position: relative;
+    &::before {
+        content: "\f003";
+        font-family: 'icomoon';
+        font-size: 16px;
+        color: $bg;
+        position: absolute;
+        left: 0;
+    }
+}
+.contacts-title__web {
+    position: relative;
+    &::before {
+        content: "\f26c";
+        font-family: 'icomoon';
+        font-size: 16px;
+        color: $bg;
+        position: absolute;
+        left: 0;
+    }
+}
+//end footer
