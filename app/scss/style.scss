@@ -80,6 +80,7 @@
 }
 .about__box-links {
     display: flex;
+    animation-delay: .5s;
 }
 .about__box-btn {
     color: #fff;
@@ -101,6 +102,7 @@
     max-width: 475px;
     width: 100%;
     padding-left: 125px;
+    animation-delay: .5s;
     img {
         display: block;
         width: 100%;
@@ -172,6 +174,24 @@
 }
 .howitworks__inner {
     display: flex;
+}
+.howitworks__box {
+    &:nth-child(1) {
+        animation-delay: .1s;
+        animation-duration: 1s;
+    }
+    &:nth-child(2) {
+        animation-delay: .3s;
+        animation-duration: 1s;
+    }
+    &:nth-child(3) {
+        animation-delay: .5s;
+        animation-duration: 1s;
+    }
+    &:nth-child(4) {
+        animation-delay: .7s;
+        animation-duration: 1s;
+    }
 }
 .howitworks__box-wraper {
     max-width: 570px;
@@ -247,6 +267,20 @@
 }
 .features__item-left {
     padding-left: 10px;
+    .features__item-box {
+        &:nth-child(1) {
+            animation-delay: .1s;
+            animation-duration: 1s;
+        }
+        &:nth-child(2) {
+            animation-delay: .3s;
+            animation-duration: 1s;
+        }
+        &:nth-child(3) {
+            animation-delay: .5s;
+            animation-duration: 1s;
+        }
+    }
 }
 .features__item-right {
     padding: 0 0 0 50px;
